@@ -1,0 +1,56 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-image: url(https://images.wallpaperscraft.com/image/single/leaves_drops_dew_1030807_1920x1080.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 150px auto;
+    background-color: #3B3B3B;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 25px 25px 5px rgba(16, 198, 239, 0.1);
+}
+
+.login-container h2 {
+    text-align:center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display:flex;
+    font-weight:bolder;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #a4db0d;
+    border-radius: 10px;
+}
+
+.input-group input[type="submit"] 
+{
+    background-color:rgb(64, 83, 90);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.input-group input[type="submit"]:hover {
+    background-color: #81c6c6;
+}
+
+.error {
+    color: hwb(0 1% 13% / 0.796);
+    margin-top: 10px;
+}
